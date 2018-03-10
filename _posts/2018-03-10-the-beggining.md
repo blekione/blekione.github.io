@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The beggining"
+title:  "Homelab the beggining"
 date:   2018-03-04 17:24:53 +0000
 categories: homelab server kubernetes
 tags:
