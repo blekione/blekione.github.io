@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: B-O-B // BlekiOne Blog
+description: It's all about homelab, babe.
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: http://streetturtle.github.io
@@ -19,12 +19,13 @@ share:
   email: true
 
 social:
-  github: streetturtle
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
+  github: blekione
+  stackoverflow: 5026241
+#  linkedin:
+#  instagram: ''
+#  lastfm: ''
   rss: feed.xml
+  twitter: KruglikMarcin
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
