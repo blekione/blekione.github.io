@@ -28,7 +28,7 @@ social:
   twitter: KruglikMarcin
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key:
+google_analytics_key: UA-116072205-1
 # Yandex metrica (https://metrica.yandex.com/) leave blank to ignore or put true to use
 yandex_metrica:
 
