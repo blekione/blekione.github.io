@@ -39,6 +39,7 @@ $background-pattern: 'random-grey-variations.png';
 body {
   padding-top: 80px;
   color: $font-color;
+  font-size: 18px;
   background: $background-color url(pics/background/#{$background-pattern});
 }
 .well {

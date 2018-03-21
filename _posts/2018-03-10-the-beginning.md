@@ -20,7 +20,7 @@ There are many other places which show how to set up a kubernetes cluster, why I
 
 {% include note.html content="
 **Disclaimer:** I have a little to none experience with servers and networking. There will be many trials and errors, but that's where the fun is - to create something and learn at the same time.
-" type="danger" %}
+" type="info" %}
 
 # How all this have started?
 
