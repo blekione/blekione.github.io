@@ -42,7 +42,7 @@ minikube start
 {% endhighlight %}
 ![img]({{ 'assets/images/2018/03/minikube_start.png' | relative_url }}){: .center-image }
 {% include note.html type="info" content="
-Your dialogs might look a bit different. I have run minikube before and it doesn't try to download any image, which will be the case for fresh installation
+Your dialogs might look a bit different. I have run minikube before and it doesn't try to download any image, which will be the case for a fresh installation.
 " %}
 
 To stop minikube (but obviously don't do it now):
