@@ -3,9 +3,14 @@ layout: post
 title: Table styles
 date:   2018-02-09 11:07
 description: Examples of different table styles
+
 comments: true
 ---
 
+set up WAN connection:
+take IP addres of the laptop (where it can be found?) IP4 not DHCP input static IP no IP6 no default gateway set (but not sure of this).
+
+in my case connection to web interface of pfsense didn't work. What I had to do was to go System>Advanced and change webConfigurator protocol from HTTP to HTTPS. (screenshot pfsense_web_configurator
 Below are the examples of the default table styling.
 
 ## Simple table
