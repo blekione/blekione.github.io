@@ -67,9 +67,9 @@ thorntail:
 
 {% endhighlight %}
 
-### 2. Add undertow fraction to the service.
+### 2. Add management fraction to the service.
 
-Even though [Undertow](http://undertow.io/) is an integral part of the Thorntail, its configuration is enabled only after undertow fraction is added to the project (and I’ve learned it the hard way :)). In the Maven project, fractions are added as project dependencies in `pom.xml` file:
+HTTPS listener is only enabled after management fraction is added to the project (and I’ve learned it the hard way :)). In the Maven project, fractions are added as project dependencies in `pom.xml` file:
 
 {% highlight xml %}
 
@@ -77,11 +77,13 @@ Even though [Undertow](http://undertow.io/) is an integral part of the Thorntail
 
  <groupId>io.thorntail</groupId>
 
- <artifactId>undertow</artifactId>
+ <artifactId>management</artifactId>
 
 </dependency>
 
 {% endhighlight %}
+
+The version of the dependency is configured in Thorntail-bom, which should be added in `dependencyManagement` section of `pom` file, if project has been created with [Thorntail Project Generator](https://thorntail.io/generator/).
 
 ## Auto generate a self-signed certificate
 
