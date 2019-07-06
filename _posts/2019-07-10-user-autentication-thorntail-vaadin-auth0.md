@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How to enable HTTPS in Thorntail
+title: User autentication with google account service using Thorntail, Vaadin, and Auth0
 
-date:   2019-06-27 20:00
-description: A guid how to enable HTTPS protocol in a Thorntail service.
+date:   2019-07-10 20:00
+description:  In this post I create simple service with user authentication. This will be build with thorntail using Vaadiin to create UI and Auth0 service for user authenticate users with their google account.
 
 comments: false
 
@@ -11,7 +11,7 @@ tags:
 - java
 - development
 - microservices
-- thorntail
+-thorntail
 ---
 
 Communication in the out-of-the-box Thorntail service is carried over HTTP. However, [the world tries to move to HTTPS](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https) to embrace security, which means sometimes, even for a development, HTTP is not enough. For example, [Swagger UI](https://swagger.io/tools/swagger-ui/), one of the Thorntail’s [fractions](https://docs.thorntail.io/2.4.0.Final/#fractions_thorntail), for "Try it out" creates API endpoints URLs with HTTPS protocol, even if the service is served over HTTP.

@@ -11,6 +11,7 @@ tags:
 - java
 - development
 - microservices
+- thorntail
 ---
 
 JRebel is a tool which updates an application after changes (e.g.: in code) without redeploying/restarting it. I’m using it at work, where we deploy an application to a WildFly server and it saves me a lot of time. How much? My JRebel statistics say that,
